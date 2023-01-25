@@ -4,8 +4,21 @@
 // para almacenarlas en la memoria. Luego podemos ejecutarlas
 
 // function exampleFunction() {
+
 //     console.log('Hello, world!');
 // }
+
+// const addTwoNumbers = (firstNumber, secondNumber) => {
+//     const result = firstNumber + secondNumber;
+//     return result;
+
+// }
+// console.log('')
+
+// const addTwo = number => number + 2;
+// console.log(addTwo(5))
+
+
 
 // exampleFunction();
 
@@ -26,8 +39,18 @@
 // 1. Escribe una función que imprima la suma de dos números
 // proporcionados como parámetros
 
+// const sumaDosNumeros = (numero1 , numero2) => console.log(numero1 + numero2);
+// sumaDosNumeros(20 , 40);
+
 // 2. Escribe una función que imprima un número aleatorio, de 1
 // hasta el rango proporcionado
+
+const numeroAleatorio = ranAleatorio => {
+    const numeroAleatorio1 = Math.random()*ranAleatorio;
+    const numeroentero = Math.floor(numeroAleatorio1)+1
+    return(numeroAleatorio1)
+    console.log(numeroAleatorio)
+}
 
 // ---
 
@@ -60,7 +83,7 @@
 // const exampleFunction = function () {
 //     console.log('Anonymous function!');
 // }
- 
+
 // exampleFunction();
 
 // Existe una sintaxis especial desde EC6: las arrow functions
@@ -68,7 +91,7 @@
 // const exampleFunction = () => {
 //     console.log('Anonymous function!');
 // }
- 
+
 // exampleFunction();
 
 // EJERCICIOS

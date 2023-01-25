@@ -33,28 +33,56 @@
 // console.log(Number(stringExampleThree));
 // console.log(typeof Number(stringExampleThree));
 
+
 // Y también tenemos el objeto Math, que nos permite realizar
 // operaciones avanzadas e incluye funcionalidades relacionadas
 // con las matemáticas
 
 // EJERCICIOS CON MÉTODOS Y MATH
 
-// const leaveThisUncommented = 156.34589;
+const leaveThisUncommented = 156.34589;
 
 // 1. Cambia el tipo de leaveThisUncommented a string
 
-// 1. Redondea leaveThisUncommented a dos decimales
+// const stringa = leaveThisUncommented.toString();
+// console.log(stringa)
 
-// 3. Determina si leaveThisUncommented es un número entero
+// // 1. Redondea leaveThisUncommented a dos decimales
 
-// 4. Determina si leaveThisUncommented es NaN
+// const redondeo = leaveThisUncommented.toFixed(2);
+
+// // 3. Determina si leaveThisUncommented es un número entero
+
+// const entero = Number.isInteger(leaveThisUncommented);
+// console.log(entero)
+
+// // 4. Determina si leaveThisUncommented es NaN
+
+// const noNumero = Number.isNaN(leaveThisUncommented);
+// console.log(noNumero)
 
 // 5. Castea leaveThisUncommented a número entero
 
+// const castea = Number.parseInt(leaveThisUncommented);
+// console.log(castea)
+
 // 6. Imprime el número PI
+
+// const piu = Math.PI;
+// console.log(piu)
 
 // 7. Redondea leaveThisUncommented al número entero superior más cercano
 
+// const enteroSuperior = Math.ceil(leaveThisUncommented);
+// console.log(enteroSuperior)
+
 // 8. Redondea leaveThisUncommented al número entero inferior más cercano
 
+// const enteroSuperior = Math.floor(leaveThisUncommented);
+// console.log(enteroSuperior)
+
 // 9. Genera un número entero aleatorio del 1 al 3
+
+// const aleatorio = Math.random()*3;
+// const entero = Math.ceil(aleatorio);
+// console.log(entero);
